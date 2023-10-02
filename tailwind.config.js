@@ -48,7 +48,9 @@ module.exports = {
       },
       width: {
         '98': "26.625rem",
-        '99': "27.125rem",    
+        '99': "27.125rem",
+        'large-card' : "32rem",   
+        'normal-card' : "30.0125rem",
       },
     },
   },

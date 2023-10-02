@@ -543,6 +543,11 @@ video {
   margin-right: 20rem;
 }
 
+.mx-96 {
+  margin-left: 24rem;
+  margin-right: 24rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -573,10 +578,6 @@ video {
   height: 0.25rem;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
 .h-6 {
   height: 1.5rem;
 }
@@ -593,6 +594,18 @@ video {
   height: 2.4375rem;
 }
 
+.h-\[22\.1875rem\] {
+  height: 22.1875rem;
+}
+
+.h-\[8\.9375rem\] {
+  height: 8.9375rem;
+}
+
+.h-\[13\.9375rem\] {
+  height: 13.9375rem;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -603,10 +616,6 @@ video {
 
 .w-24 {
   width: 6rem;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .w-56 {
@@ -649,6 +658,14 @@ video {
   width: 100%;
 }
 
+.w-large-card {
+  width: 32rem;
+}
+
+.w-normal-card {
+  width: 30.0125rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -669,12 +686,24 @@ video {
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
 
+.items-stretch {
+  align-items: stretch;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-around {
@@ -693,6 +722,14 @@ video {
   gap: 1rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .gap-x-3 {
   -moz-column-gap: 0.75rem;
        column-gap: 0.75rem;
@@ -700,6 +737,10 @@ video {
 
 .self-stretch {
   align-self: stretch;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-3xl {
@@ -780,6 +821,11 @@ video {
 .bg-neutral-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(115 115 115 / var(--tw-bg-opacity));
+}
+
+.bg-neutral-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 64 64 / var(--tw-bg-opacity));
 }
 
 .bg-searchbar-fill {
@@ -871,6 +917,14 @@ video {
 
 .pr-60 {
   padding-right: 15rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -1052,10 +1106,6 @@ video {
 .group:focus-within .group-focus-within\:text-twitter-blue-default {
   --tw-text-opacity: 1;
   color: rgb(29 155 240 / var(--tw-text-opacity));
-}
-
-.group:focus .group-focus\:caret-twitter-blue-default {
-  caret-color: #1d9bf0;
 }
 
 .group:focus .group-focus\:opacity-0 {
