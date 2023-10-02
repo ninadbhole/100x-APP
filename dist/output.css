@@ -534,10 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-8 {
-  margin: 2rem;
-}
-
 .m-10 {
   margin: 2.5rem;
 }
@@ -545,15 +541,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .block {
@@ -572,8 +559,8 @@ video {
   display: none;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-1 {
+  height: 0.25rem;
 }
 
 .h-6 {
@@ -582,10 +569,6 @@ video {
 
 .h-8 {
   height: 2rem;
-}
-
-.h-1 {
-  height: 0.25rem;
 }
 
 .w-14 {
@@ -626,6 +609,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .flex-1 {
@@ -684,28 +671,14 @@ video {
   border-bottom-width: 1px;
 }
 
-.border-b-\[0\.19rem\] {
-  border-bottom-width: 0.19rem;
-}
-
 .border-button-stroke {
   --tw-border-opacity: 1;
   border-color: rgb(84 106 122 / var(--tw-border-opacity));
 }
 
-.border-twitter-blue-default {
-  --tw-border-opacity: 1;
-  border-color: rgb(29 155 240 / var(--tw-border-opacity));
-}
-
 .border-b-neutral-700 {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(64 64 64 / var(--tw-border-opacity));
-}
-
-.border-b-twitter-blue-default {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(29 155 240 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -736,6 +709,10 @@ video {
 .bg-twitter-blue-disabled {
   --tw-bg-opacity: 1;
   background-color: rgb(30 93 135 / var(--tw-bg-opacity));
+}
+
+.fill-neutral-50 {
+  fill: #f9f9f9;
 }
 
 .p-5 {
@@ -787,11 +764,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -828,11 +800,6 @@ video {
   color: rgb(249 249 249 / var(--tw-text-opacity));
 }
 
-.text-teal-100 {
-  --tw-text-opacity: 1;
-  color: rgb(204 251 241 / var(--tw-text-opacity));
-}
-
 .text-twitter-blue-default {
   --tw-text-opacity: 1;
   color: rgb(29 155 240 / var(--tw-text-opacity));
@@ -841,6 +808,10 @@ video {
 .text-twittwe-white-100 {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.opacity-0 {
+  opacity: 0;
 }
 
 .shadow-custom {
@@ -861,14 +832,14 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-100 {
-  transition-duration: 100ms;
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
-@font-face {
-  font-family: 'Inter';
-
-  src: url('F:\100x\100x-APP\Public\Font-Family\Inter') format('truetype');
+.duration-100 {
+  transition-duration: 100ms;
 }
 
 .hover\:bg-neutral-200:hover {
@@ -876,46 +847,51 @@ video {
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-twitter-blue-hover:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(24 113 202 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-neutral-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 23 / var(--tw-bg-opacity));
 }
 
-.peer\/for_you:checked ~ .peer-checked\/for_you\:block {
-  display: block;
+.hover\:bg-twitter-blue-hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 113 202 / var(--tw-bg-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.group:focus .group-focus\:opacity-0 {
+  opacity: 0;
+}
+
+.group:focus .group-focus\:opacity-100 {
+  opacity: 1;
 }
 
 .peer\/following:checked ~ .peer-checked\/following\:block {
   display: block;
 }
 
-.peer\/for_you:checked ~ .peer-checked\/for_you\:border-b-\[0\.19rem\] {
-  border-bottom-width: 0.19rem;
-}
-
-.peer\/following:checked ~ .peer-checked\/following\:border-b-\[0\.19rem\] {
-  border-bottom-width: 0.19rem;
-}
-
-.peer\/for_you:checked ~ .peer-checked\/for_you\:font-bold {
-  font-weight: 700;
+.peer\/for_you:checked ~ .peer-checked\/for_you\:block {
+  display: block;
 }
 
 .peer\/following:checked ~ .peer-checked\/following\:font-bold {
   font-weight: 700;
 }
 
-.peer\/for_you:checked ~ .peer-checked\/for_you\:text-neutral-50 {
+.peer\/for_you:checked ~ .peer-checked\/for_you\:font-bold {
+  font-weight: 700;
+}
+
+.peer\/following:checked ~ .peer-checked\/following\:text-neutral-50 {
   --tw-text-opacity: 1;
   color: rgb(249 249 249 / var(--tw-text-opacity));
 }
 
-.peer\/following:checked ~ .peer-checked\/following\:text-neutral-50 {
+.peer\/for_you:checked ~ .peer-checked\/for_you\:text-neutral-50 {
   --tw-text-opacity: 1;
   color: rgb(249 249 249 / var(--tw-text-opacity));
 }
