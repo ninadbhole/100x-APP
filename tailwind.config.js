@@ -37,6 +37,12 @@ module.exports = {
         "5xl":"1.5rem",
         inherit: "inherit",  
       },
+      backdropBlur: {
+        'button-23': "23.668209075927734px"
+      },
+      borderRadius: {
+        '4xl': "4.0625rem"
+      },
     },
   },
   plugins: [],

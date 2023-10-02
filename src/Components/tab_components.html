@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Components</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="bg-neutral-1000 mx-auto px-4 m-10 font-inter">
+    <div class="flex flex-1 w-[37.375rem] justify-around border-b border-b-neutral-700 mx-auto">
+        <div class="w-full hover:bg-neutral-900 flex flex-col items-center">
+            <input
+              type="radio"
+              class="hidden w-full peer/for_you"
+              id="for_you"
+              value="for_you"
+              name="home_tabs"
+              checked
+            />
+            <label
+              for="for_you"
+              class="py-4 block text-neutral-400 font-medium cursor-pointer w-full text-center peer-checked/for_you:text-neutral-50 peer-checked/for_you:font-bold transition-all duration-100"
+            >
+              For you
+            </label>
+
+            <div class="hidden h-1 w-14 bg-twitter-blue-default rounded-2.5xl peer-checked/for_you:block"></div>
+        </div>
+
+        <div class="w-full hover:bg-neutral-900 flex flex-col items-center">
+            <input
+              type="radio"
+              class="hidden w-full peer/following"
+              id="following"
+              value="following"
+              name="home_tabs"
+            />
+            <label
+              for="following"
+              class="py-4 block text-neutral-400 font-medium cursor-pointer w-full text-center peer-checked/following:text-neutral-50 peer-checked/following:font-bold transition-all duration-100"
+            >
+              Following
+            </label>
+            <div class="hidden h-1 w-14 bg-twitter-blue-default rounded-2.5xl peer-checked/following:block"></div>
+
+          </div>
+
+    </div>
+
+
+</body>
+</html>
