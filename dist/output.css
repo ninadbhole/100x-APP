@@ -538,9 +538,19 @@ video {
   margin: 2.5rem;
 }
 
+.mx-80 {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-32 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .block {
@@ -563,12 +573,24 @@ video {
   height: 0.25rem;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
 
 .h-8 {
   height: 2rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-\[2\.4375rem\] {
+  height: 2.4375rem;
 }
 
 .w-14 {
@@ -583,6 +605,10 @@ video {
   width: 6rem;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .w-56 {
   width: 14rem;
 }
@@ -593,6 +619,18 @@ video {
 
 .w-80 {
   width: 20rem;
+}
+
+.w-98 {
+  width: 26.625rem;
+}
+
+.w-99 {
+  width: 27.125rem;
+}
+
+.w-\[21\.75rem\] {
+  width: 21.75rem;
 }
 
 .w-\[27\.625rem\] {
@@ -611,16 +649,20 @@ video {
   width: 100%;
 }
 
-.w-5 {
-  width: 1.25rem;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
 
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.cursor-text {
+  cursor: text;
 }
 
 .flex-col {
@@ -647,6 +689,19 @@ video {
   gap: 0.625rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-x-3 {
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -659,8 +714,20 @@ video {
   border-radius: 1.875rem;
 }
 
+.rounded-\[12\.5rem\] {
+  border-radius: 12.5rem;
+}
+
 .rounded-\[624\.9375rem\] {
   border-radius: 624.9375rem;
+}
+
+.rounded-\[6249\.9375rem\] {
+  border-radius: 6249.9375rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .border {
@@ -676,6 +743,16 @@ video {
   border-color: rgb(84 106 122 / var(--tw-border-opacity));
 }
 
+.border-neutral-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(115 115 115 / var(--tw-border-opacity));
+}
+
+.border-twitter-blue-default {
+  --tw-border-opacity: 1;
+  border-color: rgb(29 155 240 / var(--tw-border-opacity));
+}
+
 .border-b-neutral-700 {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(64 64 64 / var(--tw-border-opacity));
@@ -684,6 +761,10 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-inherit {
+  background-color: inherit;
 }
 
 .bg-neutral-1000 {
@@ -701,6 +782,11 @@ video {
   background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
 
+.bg-searchbar-fill {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 24 28 / var(--tw-bg-opacity));
+}
+
 .bg-twitter-blue-default {
   --tw-bg-opacity: 1;
   background-color: rgb(29 155 240 / var(--tw-bg-opacity));
@@ -711,17 +797,27 @@ video {
   background-color: rgb(30 93 135 / var(--tw-bg-opacity));
 }
 
-.fill-neutral-50 {
-  fill: #f9f9f9;
+.fill-neutral-500 {
+  fill: #737373;
 }
 
 .p-5 {
   padding: 1.25rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-24 {
   padding-left: 6rem;
   padding-right: 6rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4 {
@@ -754,6 +850,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -764,6 +865,14 @@ video {
   padding-bottom: 1rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pr-60 {
+  padding-right: 15rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -772,9 +881,23 @@ video {
   font-family: Inter, sans-serif;
 }
 
+.text-base {
+  font-size: 1rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -783,6 +906,14 @@ video {
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .text-neutral-1000 {
@@ -798,6 +929,11 @@ video {
 .text-neutral-50 {
   --tw-text-opacity: 1;
   color: rgb(249 249 249 / var(--tw-text-opacity));
+}
+
+.text-neutral-500 {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
 .text-twitter-blue-default {
@@ -818,6 +954,11 @@ video {
   --tw-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.25);
   --tw-shadow-colored: 0 8px 16px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .backdrop-blur-button-23 {
@@ -842,6 +983,39 @@ video {
   transition-duration: 100ms;
 }
 
+.duration-150 {
+  transition-duration: 150ms;
+}
+
+.placeholder\:text-neutral-500::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-neutral-500::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-neutral-600::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-neutral-600::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
+.focus-within\:border:focus-within {
+  border-width: 1px;
+}
+
+.focus-within\:border-twitter-blue-default:focus-within {
+  --tw-border-opacity: 1;
+  border-color: rgb(29 155 240 / var(--tw-border-opacity));
+}
+
 .hover\:bg-neutral-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
@@ -857,9 +1031,31 @@ video {
   background-color: rgb(24 113 202 / var(--tw-bg-opacity));
 }
 
+.focus\:text-neutral-50:focus {
+  --tw-text-opacity: 1;
+  color: rgb(249 249 249 / var(--tw-text-opacity));
+}
+
+.focus\:caret-twitter-blue-default:focus {
+  caret-color: #1d9bf0;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.group:focus-within .group-focus-within\:fill-primary-100 {
+  fill: #1D9BF0;
+}
+
+.group:focus-within .group-focus-within\:text-twitter-blue-default {
+  --tw-text-opacity: 1;
+  color: rgb(29 155 240 / var(--tw-text-opacity));
+}
+
+.group:focus .group-focus\:caret-twitter-blue-default {
+  caret-color: #1d9bf0;
 }
 
 .group:focus .group-focus\:opacity-0 {

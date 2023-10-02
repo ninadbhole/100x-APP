@@ -25,12 +25,14 @@ module.exports = {
         "success": "#00be74",
         "error": "#8b141a", 
         "twittwe-white-100": "#fff", 
+        "primary-100": "#1D9BF0",
       },
       boxShadow: {
         'custom': '0 8px 16px 0 rgba(0, 0, 0, 0.25)',
       },
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
+        'chirp': ['Chirp'],
       },
       fontSize: {
         base: "1rem",
@@ -41,7 +43,12 @@ module.exports = {
         'button-23': "23.668209075927734px"
       },
       borderRadius: {
-        '4xl': "4.0625rem"
+        '4xl': "4.0625rem",
+        'profile_pic_radius': "12.5rem",
+      },
+      width: {
+        '98': "26.625rem",
+        '99': "27.125rem",    
       },
     },
   },
